@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <div class="all">
+        <!-- Div principal -->
+        <div class="principal">
+
+
+            <!-- Título principal -->
+            <h1><strong>Login</strong></h1>
+
+
+            <!-- Texto que aparece abaixo do título -->
+            <p>Entre na sua conta</p>
+
+
+            <!-- Div que guarda as info -->
+            <div class="login">
+
+
+                <!-- Formulário de login -->
+                <form>
+
+
+                    <!-- div que armazena o label -->
+                    <div class="campo-grupo">
+                        <!--
+                        LABEL DO USUÁRIO
+
+                        O "for" identifica qual campo
+                        pertence a este texto.
+                    -->
+                        <label for="usuario">
+                        <br> Usuário <br>
+                        </label>
+                    </div>
+
+
+                    <!--
+                        CAMPO DE USUÁRIO
+
+                        type="text" permite digitar texto.
+                        id identifica o campo.
+                        placeholder mostra uma mensagem
+                        dentro do campo.
+                    -->
+                    <input type="text" id="usuario" name="usuario" placeholder="Digite seu usuário">
+
+                    <!-- div que armazena o label -->
+                    <div class="campo-grupo">
+                        <!-- Label da senha -->
+                        <label for="senha">
+                        <br>  Senha <br>
+                        </label>
+                    </div>
+
+
+                    <!--
+                        CAMPO DE SENHA
+
+                        type="password" faz com que
+                        os caracteres digitados apareçam
+                        escondidos.
+                    -->
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+
+                    <br>
+                    <!--
+                        BOTÃO
+
+                        type="submit" indica que o botão
+                        será utilizado para enviar
+                        o formulário.
+                    -->
+                    <br>
+                    <button type="submit">
+                    <strong>Entrar</strong> 
+                    </button>
+                    
+
+
+                </form>
+
+
+            </div>
+
+
+            <!-- Link para recuperar a senha -->
+            <a href="#">
+                Esqueci minha senha
+            </a>
+            
+            
+
+
+            <!--
+                Texto para quem ainda não possui
+                uma conta.
+            -->
+            <p>
+
+                Ainda não possui uma conta?
+
+                
+            </p>
+                <!-- Link para cadastro -->
+                <a href="#">
+                    Cadastre-se
+                </a>
+                <br>
+
+            
+
+
+        </div>
+    </div>
+
+
+
+
+</body></html>
