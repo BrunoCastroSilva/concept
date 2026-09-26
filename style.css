@@ -33,10 +33,10 @@ body {
     border: 0.1rem solid black;
     border-radius: 1.5rem;
     width: 100%;
-    max-width: 420px;        /* Em vez de %, 'max-width' em px/rem garante responsividade sem deformar em telas grandes */
+    max-width: 420px;        
     padding: 2rem;
     text-align: center;
-    background-color: #ffffff; /* Fundo branco para destacar o card */
+    background-color: #ffffff; 
     box-shadow: 0px 8px 20px 0px rgba(147, 51, 234, 0.4)
 }
 
